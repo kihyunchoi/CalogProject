@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="DietMapper">
+
+	<select id="graphDietData"
+		resultType="UserDietTotalCaloriesViewVO">
+		SELECT * FROM user_diet_total_calories_view
+		WHERE
+		user_id=#{user_id}
+		AND diet_date BETWEEN #{diet_date} AND #{diet_date}
+		+ interval 1 year ORDER BY diet_date ASC
+	</select>
+
+	<select id="userDietDailyTotalCalorie"
+		resultType="UserDietTotalCaloriesViewVO">
+		SELECT * FROM user_diet_total_calories_view
+		WHERE
+		user_id=#{user_id} AND diet_date=#{diet_date}
+	</select>
+
+	<select id="userDietDailyTotalCalorieList"
+		resultType="UserDietTotalCaloriesViewVO">
+		SELECT * FROM user_diet_total_calories_view
+		WHERE
+		user_id=#{user_id} ORDER BY diet_date ASC
+	</select>
+
+	<select id="userDietDailyMenuList" resultType="UserDietViewVO">
+		SELECT * FROM
+		user_diet_view
+		WHERE user_id=#{user_id} AND diet_date=#{diet_date}
+	</select>
+
+	<select id="userFavoriteMenuList" resultType="DietMenuVO">
+		select diet_menu.*
+		from user, diet, diet_menu, diet_type
+		where user.user_id=diet.user_id
+		and diet.diet_type_id=diet_type.diet_type_id
+		and
+		diet.diet_menu_id=diet_menu.diet_menu_id and user.user_id=#{user_id};
+	</select>
+
+	<select id="dietMenuList" resultType="DietMenuVO">
+		select * from diet_menu
+		WHERE diet_menu_name LIKE CONCAT('%',#{keyword},'%')
+	</select>
+
+	<select id="userDietTypeDailyCalorieSum"
+		resultType="DietTypeDailyCalorieSumVO">
+		SELECT diet_type_name,sum(calorie) as sum_calorie FROM
+		user_diet_view
+		WHERE user_id=#{user_id} AND diet_date=#{diet_date}
+		GROUP BY diet_type_id
+	</select>
+
+	<insert id="insertMenu">
+		INSERT INTO diet(user_id, diet_date, diet_type_id,
+		diet_menu_id,
+		diet_amount, sum_calorie)
+		VALUES(#{user_id}, #{diet_date},
+		#{diet_type_id}, #{diet_menu_id},
+		#{diet_amount}, #{sum_calorie});
+	</insert>
+
+</mapper> 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="com.calog.domain.DietVO"/>
+    <fullyQualifiedTypeName name="com.calog.domain.UserTotalWeightViewVO"/>
+    <fullyQualifiedTypeName name="com.calog.domain.UserTotalCardioViewVO"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.calog.persistence.FitnessDAO"/>
+    <fullyQualifiedTypeName name="com.calog.domain.FitnessMenuVO"/>
+    <fullyQualifiedTypeName name="com.calog.domain.UserFitnessViewVO"/>
+    <fullyQualifiedTypeName name="com.calog.domain.FitnessVO"/>
+    <fullyQualifiedTypeName name="com.calog.domain.UserFitnessTotalCaloriesViewVO"/>
+</qualifiedTypeNameHistroy>

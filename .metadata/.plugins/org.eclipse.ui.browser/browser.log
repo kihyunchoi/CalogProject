@@ -1,0 +1,192 @@
+
+Aug. 25, 2021 12:50:49.281 NEW SESSION
+Aug. 25, 2021 12:50:49.281 [3096:15236:0825/125049.279:ERROR:device_event_log_impl.cc(214)] [12:50:49.279] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Aug. 25, 2021 12:50:49.283 [3096:15236:0825/125049.280:ERROR:device_event_log_impl.cc(214)] [12:50:49.280] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug. 25, 2021 12:50:49.311 [3096:15236:0825/125049.311:ERROR:device_event_log_impl.cc(214)] [12:50:49.311] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Aug. 25, 2021 12:52:39.595 [17700:14384:0825/125239.595:ERROR:device_event_log_impl.cc(214)] [12:52:39.595] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Aug. 25, 2021 12:52:39.596 [17700:14384:0825/125239.596:ERROR:device_event_log_impl.cc(214)] [12:52:39.596] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug. 25, 2021 12:52:39.607 [17700:14384:0825/125239.606:ERROR:device_event_log_impl.cc(214)] [12:52:39.606] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Aug. 25, 2021 14:04:50.433 [17700:14384:0825/140450.432:ERROR:device_event_log_impl.cc(214)] [14:04:50.433] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Aug. 25, 2021 23:18:30.653 [17700:880:0825/231830.650:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 26, 2021 11:04:31.612 [17700:880:0826/110431.610:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 26, 2021 22:35:31.425 [17700:880:0826/223531.004:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 27, 2021 19:25:25.930 [17700:14384:0827/192525.919:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:26.507 [17700:14384:0827/192526.504:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:26.598 [17700:14384:0827/192526.597:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:27.602 [17700:14384:0827/192527.602:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:29.490 [17700:14384:0827/192529.490:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:34.578 [17700:14384:0827/192534.578:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:35.587 [17700:14384:0827/192535.586:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:42.526 [17700:14384:0827/192542.522:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:43.549 [17700:14384:0827/192543.549:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:44.564 [17700:14384:0827/192544.564:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:50.530 [17700:14384:0827/192550.530:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:51.555 [17700:14384:0827/192551.555:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:52.594 [17700:14384:0827/192552.594:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:56.121 [17700:14384:0827/192556.121:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:57.126 [17700:14384:0827/192557.126:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:58.707 [17700:14384:0827/192558.707:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:25:59.724 [17700:14384:0827/192559.723:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:00.744 [17700:14384:0827/192600.744:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:10.959 [17700:14384:0827/192610.959:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:11.968 [17700:14384:0827/192611.967:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:18.46 [17700:14384:0827/192618.045:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:19.54 [17700:14384:0827/192619.054:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:20.64 [17700:14384:0827/192620.064:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:28.173 [17700:14384:0827/192628.173:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:29.798 [17700:14384:0827/192629.798:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:30.827 [17700:14384:0827/192630.824:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:32.435 [17700:14384:0827/192632.435:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:33.455 [17700:14384:0827/192633.455:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:34.953 [17700:14384:0827/192634.952:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:35.966 [17700:14384:0827/192635.966:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:37.388 [17700:14384:0827/192637.387:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:26:38.390 [17700:14384:0827/192638.390:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:27:15.52 [17700:14384:0827/192715.052:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:27:27.47 [17700:14384:0827/192727.047:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:27:37.57 [17700:14384:0827/192737.053:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:27:47.43 [17700:14384:0827/192747.043:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:27:57.55 [17700:14384:0827/192757.055:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:07.40 [17700:14384:0827/192807.040:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:11.183 [17700:14384:0827/192811.183:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:13.698 [17700:14384:0827/192813.698:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:14.895 [17700:14384:0827/192814.894:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:15.914 [17700:14384:0827/192815.913:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:18.403 [17700:14384:0827/192818.402:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:19.588 [17700:14384:0827/192819.585:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:20.944 [17700:14384:0827/192820.943:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:22.132 [17700:14384:0827/192822.132:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:23.156 [17700:14384:0827/192823.156:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:24.532 [17700:14384:0827/192824.532:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:25.533 [17700:14384:0827/192825.533:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:26.553 [17700:14384:0827/192826.553:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:27.725 [17700:14384:0827/192827.725:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:28.940 [17700:14384:0827/192828.936:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:31.220 [17700:14384:0827/192831.220:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:32.225 [17700:14384:0827/192832.225:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:33.244 [17700:14384:0827/192833.244:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:34.651 [17700:14384:0827/192834.651:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:36.162 [17700:14384:0827/192836.162:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:37.793 [17700:14384:0827/192837.793:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:38.808 [17700:14384:0827/192838.808:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:39.824 [17700:14384:0827/192839.824:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:40.827 [17700:14384:0827/192840.827:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:42.36 [17700:14384:0827/192842.033:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:43.145 [17700:14384:0827/192843.145:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:44.148 [17700:14384:0827/192844.147:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:45.155 [17700:14384:0827/192845.155:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:46.361 [17700:14384:0827/192846.361:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:47.613 [17700:14384:0827/192847.609:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:48.611 [17700:14384:0827/192848.611:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:49.631 [17700:14384:0827/192849.631:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:50.694 [17700:14384:0827/192850.694:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:53.885 [17700:14384:0827/192853.881:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:28:58.78 [17700:14384:0827/192858.074:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:29:27.50 [17700:14384:0827/192927.050:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:29:47.47 [17700:14384:0827/192947.047:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:30:07.55 [17700:14384:0827/193007.055:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:30:27.48 [17700:14384:0827/193027.048:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:30:47.48 [17700:14384:0827/193047.048:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:31:27.68 [17700:14384:0827/193127.068:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:31:50.53 [17700:14384:0827/193150.049:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:31:57.50 [17700:14384:0827/193157.050:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:32:27.48 [17700:14384:0827/193227.048:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:32:57.56 [17700:14384:0827/193257.056:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:33:27.53 [17700:14384:0827/193327.053:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:34:15.52 [17700:14384:0827/193415.052:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:35:15.70 [17700:14384:0827/193515.070:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:36:15.44 [17700:14384:0827/193615.044:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:37:01.306 [17700:14384:0827/193701.306:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:37:15.51 [17700:14384:0827/193715.048:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:38:15.44 [17700:14384:0827/193815.044:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:39:15.56 [17700:14384:0827/193915.056:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:39:16.64 [17700:14384:0827/193916.064:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:40:15.61 [17700:14384:0827/194015.061:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:41:15.51 [17700:14384:0827/194115.051:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:42:15.53 [17700:14384:0827/194215.053:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:43:15.73 [17700:14384:0827/194315.072:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 27, 2021 19:44:15.54 [17700:14384:0827/194415.054:ERROR:page_load_metrics_update_dispatcher.cc(111)] Invalid parse_blocked_on_script_execution_duration 0.154 s for parse duration 0.152 s
+Aug. 28, 2021 02:27:32.859 [17700:880:0828/022732.859:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 28, 2021 04:26:33.444 [17700:880:0828/042633.334:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 28, 2021 08:26:02.618 [17700:880:0828/082602.618:ERROR:connection_handler_impl.cc(471)] Timed out waiting for GCM Protocol buffer.
+Aug. 28, 2021 08:37:34.57 [17700:14384:0828/083734.057:ERROR:device_event_log_impl.cc(214)] [08:37:34.055] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Aug. 28, 2021 15:38:10.307 [17700:880:0828/153810.035:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 28, 2021 16:37:10.894 [17700:16104:0828/163710.894:ERROR:get_updates_processor.cc(257)] PostClientToServerMessage() failed during GetUpdates with error 2
+Aug. 28, 2021 19:39:11.641 [17700:880:0828/193911.347:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 29, 2021 24:39:43.759 [17700:880:0829/003943.580:ERROR:connection_handler_impl.cc(471)] Timed out waiting for GCM Protocol buffer.
+Aug. 29, 2021 07:10:43.615 [17700:880:0829/071043.280:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 29, 2021 09:11:43.843 [17700:880:0829/091143.843:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 29, 2021 15:33:13.767 [17700:880:0829/153313.766:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 29, 2021 18:08:19.258 [17700:880:0829/180819.071:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 29, 2021 20:08:19.637 [17700:880:0829/200819.637:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 30, 2021 08:15:18.443 [17700:880:0830/081518.266:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 30, 2021 09:15:18.744 [17700:14384:0830/091518.744:ERROR:account_info_fetcher.cc(78)] OnOAuthError
+Aug. 30, 2021 11:15:19.40 [17700:880:0830/111519.039:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 30, 2021 12:32:49.445 [17700:880:0830/123249.444:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+Aug. 30, 2021 14:11:19.830 [17700:880:0830/141119.829:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+
+Oct. 05, 2021 13:52:04.259 NEW SESSION
+Oct. 05, 2021 13:52:04.259 [10936:15336:1005/135204.258:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 05, 2021 13:52:04.260 [10936:15336:1005/135204.258:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 05, 2021 13:52:04.260 [10936:15336:1005/135204.258:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 05, 2021 13:52:04.260 [10936:8552:1005/135204.259:ERROR:device_event_log_impl.cc(214)] [13:52:04.259] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 05, 2021 13:52:04.260 [10936:8552:1005/135204.260:ERROR:device_event_log_impl.cc(214)] [13:52:04.260] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 05, 2021 13:52:04.260 [10936:15336:1005/135204.260:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 05, 2021 13:52:04.271 [10936:8552:1005/135204.271:ERROR:device_event_log_impl.cc(214)] [13:52:04.271] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Oct. 06, 2021 05:34:12.273 [10936:8552:1006/053412.264:ERROR:device_event_log_impl.cc(214)] [05:34:12.263] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Oct. 06, 2021 08:51:09.912 [10936:8552:1006/085109.908:ERROR:command_buffer_proxy_impl.cc(328)] GPU state invalid after WaitForGetOffsetInRange.
+Oct. 06, 2021 08:51:09.917 [10936:8552:1006/085109.911:ERROR:gpu_process_host.cc(956)] GPU process exited unexpectedly: exit_code=34
+Oct. 07, 2021 04:25:32.554 [15068:18176:1007/042532.550:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 07, 2021 04:25:32.556 [15068:18176:1007/042532.550:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 07, 2021 04:25:32.556 [15068:18176:1007/042532.550:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 07, 2021 04:25:32.557 [15068:18176:1007/042532.551:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 07, 2021 04:25:32.557 [15068:7400:1007/042532.551:ERROR:device_event_log_impl.cc(214)] [04:25:32.551] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 07, 2021 04:25:32.557 [15068:7400:1007/042532.552:ERROR:device_event_log_impl.cc(214)] [04:25:32.551] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 07, 2021 04:25:32.557 [15068:7400:1007/042532.552:ERROR:device_event_log_impl.cc(214)] [04:25:32.551] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 07, 2021 04:25:32.563 [15068:7400:1007/042532.563:ERROR:device_event_log_impl.cc(214)] [04:25:32.562] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Oct. 07, 2021 05:48:32.489 [17924:6916:1007/054832.488:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 07, 2021 05:48:32.489 [17924:6916:1007/054832.488:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 07, 2021 05:48:32.490 [17924:6916:1007/054832.488:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 07, 2021 05:48:32.492 [17924:6916:1007/054832.492:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 07, 2021 05:48:32.493 [17924:16816:1007/054832.492:ERROR:device_event_log_impl.cc(214)] [05:48:32.493] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 07, 2021 05:48:32.494 [17924:16816:1007/054832.494:ERROR:device_event_log_impl.cc(214)] [05:48:32.494] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 07, 2021 05:48:32.529 [17924:16816:1007/054832.529:ERROR:device_event_log_impl.cc(214)] [05:48:32.529] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Oct. 07, 2021 13:41:30.520 [12520:10696:1007/134130.519:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 07, 2021 13:41:30.522 [12520:10696:1007/134130.519:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 07, 2021 13:41:30.522 [12520:10696:1007/134130.519:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 07, 2021 13:41:30.522 [12520:10696:1007/134130.521:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 07, 2021 13:41:30.526 [12520:9600:1007/134130.526:ERROR:device_event_log_impl.cc(214)] [13:41:30.526] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 07, 2021 13:41:30.528 [12520:9600:1007/134130.528:ERROR:device_event_log_impl.cc(214)] [13:41:30.527] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 07, 2021 13:41:30.548 [12520:9600:1007/134130.548:ERROR:device_event_log_impl.cc(214)] [13:41:30.548] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+
+Oct. 19, 2021 22:35:06.455 NEW SESSION
+Oct. 19, 2021 22:35:06.455 [8548:15464:1019/223506.448:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 19, 2021 22:35:06.456 [8548:15464:1019/223506.448:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 19, 2021 22:35:06.456 [8548:15464:1019/223506.448:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 19, 2021 22:35:06.456 [8548:6404:1019/223506.450:ERROR:device_event_log_impl.cc(214)] [22:35:06.450] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 19, 2021 22:35:06.457 [8548:6404:1019/223506.451:ERROR:device_event_log_impl.cc(214)] [22:35:06.451] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 19, 2021 22:35:06.457 [8548:15464:1019/223506.454:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 19, 2021 22:35:06.493 [8548:6404:1019/223506.493:ERROR:device_event_log_impl.cc(214)] [22:35:06.493] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Oct. 20, 2021 06:59:58.686 [17244:10028:1020/065958.685:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 20, 2021 06:59:58.687 [17244:10028:1020/065958.685:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 20, 2021 06:59:58.688 [17244:10028:1020/065958.685:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 20, 2021 06:59:58.688 [17244:11916:1020/065958.686:ERROR:device_event_log_impl.cc(214)] [06:59:58.685] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 20, 2021 06:59:58.689 [17244:11916:1020/065958.687:ERROR:device_event_log_impl.cc(214)] [06:59:58.687] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 20, 2021 06:59:58.693 [17244:10028:1020/065958.693:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 20, 2021 06:59:58.732 [17244:11916:1020/065958.731:ERROR:device_event_log_impl.cc(214)] [06:59:58.731] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Oct. 20, 2021 14:25:44.376 [17244:11916:1020/142544.373:ERROR:device_event_log_impl.cc(214)] [14:25:44.374] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Oct. 20, 2021 20:03:41.402 [2836:8548:1020/200341.399:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 20, 2021 20:03:41.405 [2836:8548:1020/200341.400:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 20, 2021 20:03:41.405 [2836:8548:1020/200341.400:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 20, 2021 20:03:41.406 [2836:12832:1020/200341.403:ERROR:device_event_log_impl.cc(214)] [20:03:41.403] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 20, 2021 20:03:41.407 [2836:12832:1020/200341.405:ERROR:device_event_log_impl.cc(214)] [20:03:41.405] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 20, 2021 20:03:41.408 [2836:12832:1020/200341.406:ERROR:device_event_log_impl.cc(214)] [20:03:41.406] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 20, 2021 20:03:41.408 [2836:8548:1020/200341.406:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 20, 2021 20:03:41.439 [2836:12832:1020/200341.439:ERROR:device_event_log_impl.cc(214)] [20:03:41.439] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+Oct. 20, 2021 20:20:51.421 [3344:16644:1020/202051.421:ERROR:device_event_log_impl.cc(214)] [20:20:51.421] USB: usb_service_win.cc:389 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Oct. 20, 2021 20:20:51.422 [3344:15372:1020/202051.422:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct. 20, 2021 20:20:51.423 [3344:15372:1020/202051.422:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct. 20, 2021 20:20:51.424 [3344:15372:1020/202051.422:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct. 20, 2021 20:20:51.424 [3344:16644:1020/202051.422:ERROR:device_event_log_impl.cc(214)] [20:20:51.422] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct. 20, 2021 20:20:51.426 [3344:15372:1020/202051.426:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct. 20, 2021 20:20:51.453 [3344:16644:1020/202051.452:ERROR:device_event_log_impl.cc(214)] [20:20:51.452] Bluetooth: bluetooth_adapter_winrt.cc:1163 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.

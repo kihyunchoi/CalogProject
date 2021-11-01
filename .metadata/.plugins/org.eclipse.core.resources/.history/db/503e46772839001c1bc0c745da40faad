@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="SleepingMapper">
+
+	<!-- 특정 user의 특정일에 대한 수면 정보 조회 -->
+	<select id="userSleepingDailyInfo" resultType="SleepingVO">
+		SELECT * FROM sleeping
+		WHERE user_id=#{user_id} AND sleeping_date=#{sleeping_date}
+	</select>
+	
+	<select id="graphSleepingData" resultType="SleepingVO">
+		SELECT * FROM sleeping
+		WHERE user_id=#{user_id} AND sleeping_date BETWEEN #{sleeping_date} AND #{sleeping_date}
+		+ interval 1 year ORDER BY sleeping_date ASC
+	</select>
+
+	<!-- 특정 user의  수면 시간,코골이 시간 저장-->
+	<insert id="userSleepInsert">
+		REPLACE INTO sleeping(user_id,sleeping_date,sleeping_seconds)
+		VALUES(#{user_id},CURDATE(),#{sleeping_seconds})
+	</insert>
+</mapper>

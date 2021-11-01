@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="FitnessMapper">
+
+	<select id="fitnessMenuList" resultType="FitnessMenuVO">
+		SELECT * FROM
+		fitness_menu
+	</select>
+
+	<select id="graphFitnessData"
+		resultType="UserFitnessTotalCaloriesViewVO">
+		select * from user_fitness_total_calories_view
+		where
+		user_id=#{user_id}
+		and fitness_date between #{fitness_date} and
+		#{fitness_date}
+		+ interval 1 week ORDER BY fitness_date ASC
+	</select>
+
+	<select id="userFitnessDailyTotalCalorie"
+		resultType="UserFitnessTotalCaloriesViewVO">
+		select * from user_fitness_total_calories_view
+		where
+		user_id=#{user_id} and fitness_date=#{fitness_date}
+	</select>
+
+	<select id="userFitnessDailyMenuList"
+		resultType="UserFitnessViewVO">
+		SELECT * FROM user_fitness_view
+		WHERE user_id=#{user_id} AND
+		fitness_date=#{fitness_date}
+	</select>
+
+	<insert id="userFitnessInsert">
+		INSERT INTO
+		fitness(user_id,fitness_date,fitness_menu_id,fitness_seconds,calorie_consumption)
+		VALUES(#{user_id},CURDATE(),#{fitness_menu_id},#{fitness_seconds},#{calorie_consumption})
+	</insert>
+
+</mapper>

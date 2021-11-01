@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diet.DietActivity"
+    android:orientation="vertical"
+    android:padding="5sp"
+    android:background="#000000">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_back" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btnBack"
+                android:layout_centerVertical="true"
+                android:text="2019-07-01"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"
+                android:text="user_id"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- TODO 그래프 프래그먼트 -->
+    <fragment
+        android:id="@+id/barChartFrag"
+        android:name="com.example.calog.common.GraphPagerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/toolbar"/>
+
+    <RelativeLayout
+        android:id="@+id/oneDayDietCalorie"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+        android:layout_below="@id/barChartFrag">
+
+        <TextView
+            android:id="@+id/txtBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast : kcal"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/txtLunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch : kcal"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtBreakfast"/>
+
+        <TextView
+            android:id="@+id/txtDinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner : kcal"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtLunch"/>
+
+        <TextView
+            android:id="@+id/txtSnack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snack : kcal"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtDinner"/>
+
+        <Button
+            android:id="@+id/btnDetailView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Detail"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+    <SlidingDrawer
+        android:id="@+id/dietDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:topOffset="0sp"
+        android:handle="@+id/handle"
+        android:content="@+id/content"
+        android:layout_below="@id/oneDayDietCalorie"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/handle"
+            android:src="@android:drawable/arrow_up_float"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <RelativeLayout
+                android:id="@+id/btnBreakfast"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:onClick="mClick"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imgBreakfast"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/breakfast"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Breakfast"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/imgBreakfast"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btnLunch"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/btnBreakfast"
+                android:onClick="mClick">
+
+                <ImageView
+                    android:id="@+id/imgLunch"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/lunch"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lunch"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/imgLunch"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btnDinner"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/btnLunch"
+                android:onClick="mClick">
+
+                <ImageView
+                    android:id="@+id/imgDinner"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/dinner"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dinner"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/imgDinner"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btnSnack"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_toRightOf="@id/btnDinner"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="mClick">
+
+                <ImageView
+                    android:id="@+id/imgSnack"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/snack"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Snack"
+                    android:textColor="#FFFFFF"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/imgSnack"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </SlidingDrawer>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#111111"
+        app:itemIconTint="#6ADB2C"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="#6ADB2C"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom"/>
+
+</RelativeLayout>
